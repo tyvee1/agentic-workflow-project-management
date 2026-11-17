@@ -1,0 +1,16 @@
+# Secrets: the API key lives only in a local .env file
+.env
+.env.*
+
+# Python build artifacts and local environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Files written by the RAG agent at run time (text chunks and their embeddings)
+phase_1/chunks-*.csv
+phase_1/embeddings-*.csv
+
+# Course-provided input, not part of the submission (see README)
+phase_2/Product-Spec-Email-Router.txt

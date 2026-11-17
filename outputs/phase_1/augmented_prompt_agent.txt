@@ -1,0 +1,9 @@
+$ cd phase_1 && python augmented_prompt_agent.py
+
+Prompt: What is the capital of France?
+Dear students,  
+The capital of France is Paris. It is not only the political center of the country but also a major cultural and historical hub. If you have any more questions about geography or history, feel free to ask!
+Knowledge source: the model's general training data (no knowledge was supplied).
+Persona effect: the system prompt sets the voice and opening ('Dear students,'), not the facts.
+
+[exit status: 0]

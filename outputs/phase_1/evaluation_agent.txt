@@ -1,0 +1,41 @@
+$ cd phase_1 && python evaluation_agent.py
+
+
+--- Interaction 1 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+What is the capital of France?
+Worker Agent Response:
+Dear students, knowledge-based assistant. According to the provided information, the capital of France is London, not Paris.
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+No, the answer does not meet the criteria because it is a full sentence and not solely the name of a city.
+ Step 3: Check if evaluation is positive
+ Step 4: Generate instructions to correct the response
+Instructions to fix:
+Please revise your answer so that it includes only the name of a city, without any additional words or full sentences.
+ Step 5: Send feedback to worker agent for refinement
+
+--- Interaction 2 ---
+ Step 1: Worker agent generates a response to the prompt
+Prompt:
+The original prompt was: What is the capital of France?
+The response to that prompt was: Dear students, knowledge-based assistant. According to the provided information, the capital of France is London, not Paris.
+It has been evaluated as incorrect.
+Make only these corrections, do not alter content validity: Please revise your answer so that it includes only the name of a city, without any additional words or full sentences.
+Worker Agent Response:
+London
+ Step 2: Evaluator agent judges the response
+Evaluator Agent Evaluation:
+Yes. The answer is solely the name of a city and is not a sentence.
+ Step 3: Check if evaluation is positive
+✅ Final solution accepted.
+
+=== Evaluation result ===
+Prompt: What is the capital of France?
+Final response: London
+Evaluation: Yes. The answer is solely the name of a city and is not a sentence.
+Iterations: 2
+{'final_response': 'London', 'evaluation': 'Yes. The answer is solely the name of a city and is not a sentence.', 'iterations': 2}
+
+[exit status: 0]

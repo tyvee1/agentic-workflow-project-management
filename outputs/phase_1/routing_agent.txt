@@ -1,0 +1,39 @@
+$ cd phase_1 && python routing_agent.py
+
+
+Prompt: Tell me about the history of Rome, Texas
+[Router] texas agent: 0.386
+[Router] europe agent: 0.165
+[Router] math agent: 0.003
+[Router] Best agent: texas agent (score=0.386)
+Rome, Texas, is a small unincorporated community located in Fannin County in the northeastern part of the state. Its history dates back to the mid-19th century when settlers began establishing farms and ranches in the area. The community was named after Rome, Italy, reflecting the settlers' aspirations or admiration for the ancient city.
+
+Throughout its history, Rome remained a rural community with an economy primarily based on agriculture, including cotton farming and livestock raising. The arrival of railroads in nearby towns influenced the development and accessibility of Rome, although it never grew into a large urban center.
+
+Today, Rome, Texas, retains its small-town charm and serves as a reminder of the early settlement patterns and agricultural heritage of northeastern Texas.
+
+Prompt: Tell me about the history of Rome, Italy
+[Router] texas agent: 0.144
+[Router] europe agent: 0.288
+[Router] math agent: 0.032
+[Router] Best agent: europe agent (score=0.288)
+Rome, Italy, has a rich and extensive history that spans over two and a half millennia. Founded traditionally in 753 BCE, Rome began as a small settlement on the Tiber River. It grew from a monarchy to a republic in 509 BCE, establishing a complex system of governance with elected officials and a Senate.
+
+During the Roman Republic, Rome expanded its territory through military conquest and alliances, eventually dominating the Italian peninsula and much of the Mediterranean region. This period saw significant developments in law, politics, and engineering.
+
+In 27 BCE, Rome transitioned from a republic to an empire under Augustus, the first Roman emperor. The Roman Empire reached its peak in the 2nd century CE, controlling vast territories across Europe, North Africa, and the Middle East. Rome became a center of culture, art, architecture, and religion, including the rise of Christianity.
+
+The empire eventually declined due to internal strife, economic troubles, and invasions by various barbarian groups. In 476 CE, the Western Roman Empire fell, marking the beginning of the Middle Ages.
+
+Throughout the medieval period, Rome remained an important religious center as the seat of the Papacy. The Renaissance, beginning in the 14th century, saw Rome flourish again as a hub of art, culture, and learning.
+
+In modern times, Rome became the capital of the unified Kingdom of Italy in 1871 and later the capital of the Italian Republic. Today, Rome is a vibrant city that reflects its historical legacy through its architecture, monuments, and cultural institutions.
+
+Prompt: One story takes 2 days, and there are 20 stories
+[Router] texas agent: 0.059
+[Router] europe agent: 0.083
+[Router] math agent: 0.130
+[Router] Best agent: math agent (score=0.130)
+Total time = 2 days/story × 20 stories = 40 days
+
+[exit status: 0]
